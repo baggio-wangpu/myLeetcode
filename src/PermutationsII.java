@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class PermutationsII {
@@ -33,5 +35,6 @@ public class PermutationsII {
                 tempList.remove(tempList.size() - 1);
             }
         }
+        Arrays.sort(nums);
     }
 }
